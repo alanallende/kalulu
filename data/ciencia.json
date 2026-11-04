@@ -17,7 +17,8 @@
     "id": 3,
     "pregunta": "¿Vale la pena usar textos con letras más espaciadas?",
     "orden": 30,
-    "publicada": true
+    "publicada": true,
+    "descripcion": "Algunas investigaciones sugieren que aumentar el espacio entre las letras podría facilitar la lectura en chicos con dislexia o con dificultades lectoras, al reducir la interferencia visual entre caracteres. Sin embargo, todavía no está claro cuánto ayuda, a quiénes beneficia realmente ni si ese efecto se mantiene en distintas tareas y contextos. Queremos estudiar si una mayor separación entre letras puede mejorar la precisión y la fluidez lectora, especialmente en estudiantes que presentan mayores dificultades para leer."
   },
   {
     "id": 4,
