@@ -10,7 +10,8 @@
     "id": 2,
     "pregunta": "¿Sirve usar una letra de cada color o es mejor todo en negro?",
     "orden": 20,
-    "publicada": true
+    "publicada": true,
+    "descripcion": "El color puede utilizarse para destacar letras, sílabas o partes de una palabra y dirigir la atención de los niños hacia determinados elementos. Pero ¿esa ayuda visual facilita realmente el aprendizaje o puede generar una dependencia innecesaria? Queremos comparar distintas formas de presentar el texto para entender qué ayuda mejor a reconocer y aprender las correspondencias entre letras y sonidos."
   },
   {
     "id": 3,
