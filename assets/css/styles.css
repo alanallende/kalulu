@@ -1212,20 +1212,15 @@ textarea:focus-visible,
   gap: 0.2rem;
   text-align: left;
   flex: 1;
-  justify-content: center;
+  justify-content: flex-start;
 }
-.equipo__miembro h3 { font-size: 1rem; font-weight: var(--peso-titulo-medio); line-height: 1.25; }
+.equipo__miembro h3 { font-size: 0.95rem; font-weight: var(--peso-titulo-medio); line-height: 1.25; }
 .equipo__miembro p {
   color: var(--color-texto-suave);
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   line-height: 1.4;
-  /* Bloque de texto compacto: como máximo 2 líneas, para que las cuatro
-     tarjetas de una misma fila mantengan una altura pareja aun con
-     cargos de distinta longitud. */
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+  /* El cargo se muestra completo (varias líneas si hace falta). Las tarjetas
+     de una misma fila se estiran a la misma altura (grid). */
 }
 
 .equipo__estado { text-align: center; padding: var(--space-5) 0; color: var(--color-texto-suave); grid-column: 1 / -1; }
